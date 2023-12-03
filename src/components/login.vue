@@ -11,7 +11,7 @@
         </div>
         <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">Last name</span>
-        <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         </div>
         <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">Password</span>
@@ -41,6 +41,7 @@
     width: 15cm;
     padding:2cm;
     border-radius: .5cm;
+    box-shadow: 0px 0.45em 0px 0px #df6d6d;
 
     }
 
@@ -50,7 +51,7 @@
     
     .warning{
         color: #b9b6d3;
-        font-size: small;
+        font-size: x-small;
         transform: translateY(-0.3cm);
         transform: translateY(-2cm);
     }
@@ -58,6 +59,7 @@
     .warning span{
         color:#ff7a7a;
         font-weight: bold;
+        cursor: pointer;
     }
 
     .login-content{
