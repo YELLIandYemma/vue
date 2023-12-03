@@ -6,11 +6,25 @@
         <input type="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         </div>
         <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+        <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Last name</span>
+        <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">Password</span>
         <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         </div>
         <div>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-success">Clain Your Free Trial</button>
+        </div><br/>
+        <div class="terms-area">
+        <span class="warning">By clicking on the button, you are agreeing to our <span>Terms and Services</span> </span>
+        </div>
+        <div>
+            
         </div>
         </div>
     </div>
@@ -21,17 +35,32 @@
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translate(-20%, -50%);
+    transform: translate(-5%, -50%);
     background-color: rgba(255, 255, 255, 0.899);
     height: 10cm;
     width: 15cm;
     padding:2cm;
     border-radius: .5cm;
+
+    }
+
+    .terms-area{
+        transform: translateY(-0.5cm);
     }
     
- 
+    .warning{
+        color: #b9b6d3;
+        font-size: small;
+        transform: translateY(-0.3cm);
+        transform: translateY(-2cm);
+    }
+
+    .warning span{
+        color:#ff7a7a;
+        font-weight: bold;
+    }
 
     .login-content{
-        transform: translateY(1cm);
+        transform: translateY(0.1cm);
     }
 </style>
