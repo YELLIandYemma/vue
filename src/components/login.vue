@@ -3,19 +3,19 @@
         <div class="login-content">
         <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
-        <input type="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <input type="email" class="form-control" placeholder="jhon@email.com" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         </div>
         <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
-        <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <input type="password"  placeholder="Jhon" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         </div>
         <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">Last name</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <input type="text" class="form-control"  placeholder="Doe" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         </div>
         <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">Password</span>
-        <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <input type="password"  placeholder="jhon's password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         </div>
         <div>
             <button type="button" class="btn btn-success">Clain Your Free Trial</button>
