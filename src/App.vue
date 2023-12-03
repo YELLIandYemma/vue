@@ -1,7 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+
 import login from './components/login.vue';
+import popup from './components/popup.vue'
 </script>
 
 <template>
@@ -19,7 +20,7 @@ import login from './components/login.vue';
       </div>
     </div>
   </div>
-
+  <popup/>
   <login/>
 </template>
 
